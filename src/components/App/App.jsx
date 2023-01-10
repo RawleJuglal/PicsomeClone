@@ -16,8 +16,8 @@ function App() {
       </nav>
       <main>
         <Routes>
-          <Route index element={<Photos />}></Route>
-          <Route path='cart' element={<Cart />}></Route>
+          <Route path='/PicSomeClone/' element={<Photos />}></Route>
+          <Route path='/PicSomeClone/cart' element={<Cart />}></Route>
         </Routes>
       </main>
     </div>

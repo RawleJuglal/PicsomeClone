@@ -10,8 +10,8 @@ function Header() {
 
         return (
         <header>
-            <NavLink to="/"><h2>Pic Some</h2></NavLink>
-            <NavLink to="cart"><i className={`${shoppingCart} ri-fw ri-2x`}></i></NavLink>
+            <NavLink to="/PicSomeClone/"><h2>Pic Some</h2></NavLink>
+            <NavLink to="/PicSomeClone/cart"><i className={`${shoppingCart} ri-fw ri-2x`}></i></NavLink>
         </header>
         
     )
